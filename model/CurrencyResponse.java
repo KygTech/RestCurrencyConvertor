@@ -1,0 +1,12 @@
+package com.example.currencyProject.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class CurrencyResponse {
+
+    private double result;
+
+}
